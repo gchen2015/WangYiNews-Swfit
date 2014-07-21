@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA12027E197A8AD9002AAF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12027D197A8AD9002AAF07 /* AppDelegate.swift */; };
+		EA120280197A8AD9002AAF07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA12027F197A8AD9002AAF07 /* Images.xcassets */; };
+		EA12028C197A8AD9002AAF07 /* WangYiNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12028B197A8AD9002AAF07 /* WangYiNewsTests.swift */; };
+		EA12029E197A8BA2002AAF07 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12029D197A8BA2002AAF07 /* NewsListViewController.swift */; };
+		EA1202A0197A8BAB002AAF07 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12029F197A8BAB002AAF07 /* NewsDetailViewController.swift */; };
+		EA1202A2197A8BBF002AAF07 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1202A1197A8BBF002AAF07 /* NewsItem.swift */; };
+		EA1202A4197A8BDB002AAF07 /* NewsShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1202A3197A8BDB002AAF07 /* NewsShowCell.swift */; };
+		EA1202A6197A8BEC002AAF07 /* NewsImageShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1202A5197A8BEC002AAF07 /* NewsImageShowCell.swift */; };
+		EA1202AA197A9A7C002AAF07 /* RequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1202A9197A9A7C002AAF07 /* RequestHandle.m */; };
+		EA1202BA197A9A8F002AAF07 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1202AE197A9A8F002AAF07 /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA1202BB197A9A90002AAF07 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1202B1197A9A8F002AAF07 /* EGOImageButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA1202BC197A9A90002AAF07 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1202B4197A9A8F002AAF07 /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA1202BE197A9A90002AAF07 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1202B9197A9A8F002AAF07 /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA1202C1197AA2DD002AAF07 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1202C0197AA2DD002AAF07 /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA120286197A8AD9002AAF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA120270197A8AD9002AAF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA120277197A8AD9002AAF07;
+			remoteInfo = WangYiNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA120278197A8AD9002AAF07 /* WangYiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangYiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA12027C197A8AD9002AAF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA12027D197A8AD9002AAF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA12027F197A8AD9002AAF07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA120285197A8AD9002AAF07 /* WangYiNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangYiNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA12028A197A8AD9002AAF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA12028B197A8AD9002AAF07 /* WangYiNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WangYiNewsTests.swift; sourceTree = "<group>"; };
+		EA12029D197A8BA2002AAF07 /* NewsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		EA12029F197A8BAB002AAF07 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		EA1202A1197A8BBF002AAF07 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		EA1202A3197A8BDB002AAF07 /* NewsShowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsShowCell.swift; sourceTree = "<group>"; };
+		EA1202A5197A8BEC002AAF07 /* NewsImageShowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsImageShowCell.swift; sourceTree = "<group>"; };
+		EA1202A7197A9A7B002AAF07 /* WangYiNews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WangYiNews-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA1202A8197A9A7C002AAF07 /* RequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHandle.h; sourceTree = "<group>"; };
+		EA1202A9197A9A7C002AAF07 /* RequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHandle.m; sourceTree = "<group>"; };
+		EA1202AD197A9A8F002AAF07 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		EA1202AE197A9A8F002AAF07 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		EA1202B0197A9A8F002AAF07 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		EA1202B1197A9A8F002AAF07 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		EA1202B3197A9A8F002AAF07 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		EA1202B4197A9A8F002AAF07 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		EA1202B8197A9A8F002AAF07 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		EA1202B9197A9A8F002AAF07 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		EA1202BF197AA2DD002AAF07 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		EA1202C0197AA2DD002AAF07 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA120275197A8AD9002AAF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA120282197A8AD9002AAF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA12026F197A8AD9002AAF07 = {
+			isa = PBXGroup;
+			children = (
+				EA12027A197A8AD9002AAF07 /* WangYiNews */,
+				EA120288197A8AD9002AAF07 /* WangYiNewsTests */,
+				EA120279197A8AD9002AAF07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA120279197A8AD9002AAF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA120278197A8AD9002AAF07 /* WangYiNews.app */,
+				EA120285197A8AD9002AAF07 /* WangYiNewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA12027A197A8AD9002AAF07 /* WangYiNews */ = {
+			isa = PBXGroup;
+			children = (
+				EA120295197A8B19002AAF07 /* Controllers */,
+				EA120296197A8B19002AAF07 /* Models */,
+				EA120297197A8B19002AAF07 /* ThirdPart */,
+				EA120298197A8B19002AAF07 /* Views */,
+				EA12027D197A8AD9002AAF07 /* AppDelegate.swift */,
+				EA12027F197A8AD9002AAF07 /* Images.xcassets */,
+				EA12027B197A8AD9002AAF07 /* Supporting Files */,
+			);
+			path = WangYiNews;
+			sourceTree = "<group>";
+		};
+		EA12027B197A8AD9002AAF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA12027C197A8AD9002AAF07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA120288197A8AD9002AAF07 /* WangYiNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA12028B197A8AD9002AAF07 /* WangYiNewsTests.swift */,
+				EA120289197A8AD9002AAF07 /* Supporting Files */,
+			);
+			path = WangYiNewsTests;
+			sourceTree = "<group>";
+		};
+		EA120289197A8AD9002AAF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA12028A197A8AD9002AAF07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA120295197A8B19002AAF07 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA12029D197A8BA2002AAF07 /* NewsListViewController.swift */,
+				EA12029F197A8BAB002AAF07 /* NewsDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA120296197A8B19002AAF07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202A1197A8BBF002AAF07 /* NewsItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA120297197A8B19002AAF07 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202AB197A9A8F002AAF07 /* EGOImage */,
+				EA1202A8197A9A7C002AAF07 /* RequestHandle.h */,
+				EA1202A9197A9A7C002AAF07 /* RequestHandle.m */,
+				EA1202A7197A9A7B002AAF07 /* WangYiNews-Bridging-Header.h */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		EA120298197A8B19002AAF07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202A3197A8BDB002AAF07 /* NewsShowCell.swift */,
+				EA1202A5197A8BEC002AAF07 /* NewsImageShowCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA1202AB197A9A8F002AAF07 /* EGOImage */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202AC197A9A8F002AAF07 /* EGOCache */,
+				EA1202AF197A9A8F002AAF07 /* EGOImageButton */,
+				EA1202B2197A9A8F002AAF07 /* EGOImageLoader */,
+				EA1202B7197A9A8F002AAF07 /* EGOImageView */,
+			);
+			path = EGOImage;
+			sourceTree = "<group>";
+		};
+		EA1202AC197A9A8F002AAF07 /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202AD197A9A8F002AAF07 /* EGOCache.h */,
+				EA1202AE197A9A8F002AAF07 /* EGOCache.m */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		EA1202AF197A9A8F002AAF07 /* EGOImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202B0197A9A8F002AAF07 /* EGOImageButton.h */,
+				EA1202B1197A9A8F002AAF07 /* EGOImageButton.m */,
+			);
+			path = EGOImageButton;
+			sourceTree = "<group>";
+		};
+		EA1202B2197A9A8F002AAF07 /* EGOImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202BF197AA2DD002AAF07 /* EGOImageLoader.h */,
+				EA1202C0197AA2DD002AAF07 /* EGOImageLoader.m */,
+				EA1202B3197A9A8F002AAF07 /* EGOImageLoadConnection.h */,
+				EA1202B4197A9A8F002AAF07 /* EGOImageLoadConnection.m */,
+			);
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		EA1202B7197A9A8F002AAF07 /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EA1202B8197A9A8F002AAF07 /* EGOImageView.h */,
+				EA1202B9197A9A8F002AAF07 /* EGOImageView.m */,
+			);
+			path = EGOImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA120277197A8AD9002AAF07 /* WangYiNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA12028F197A8AD9002AAF07 /* Build configuration list for PBXNativeTarget "WangYiNews" */;
+			buildPhases = (
+				EA120274197A8AD9002AAF07 /* Sources */,
+				EA120275197A8AD9002AAF07 /* Frameworks */,
+				EA120276197A8AD9002AAF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WangYiNews;
+			productName = WangYiNews;
+			productReference = EA120278197A8AD9002AAF07 /* WangYiNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA120284197A8AD9002AAF07 /* WangYiNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA120292197A8AD9002AAF07 /* Build configuration list for PBXNativeTarget "WangYiNewsTests" */;
+			buildPhases = (
+				EA120281197A8AD9002AAF07 /* Sources */,
+				EA120282197A8AD9002AAF07 /* Frameworks */,
+				EA120283197A8AD9002AAF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA120287197A8AD9002AAF07 /* PBXTargetDependency */,
+			);
+			name = WangYiNewsTests;
+			productName = WangYiNewsTests;
+			productReference = EA120285197A8AD9002AAF07 /* WangYiNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA120270197A8AD9002AAF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "北京蓝鸥科技有限公司";
+				TargetAttributes = {
+					EA120277197A8AD9002AAF07 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EA120284197A8AD9002AAF07 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EA120277197A8AD9002AAF07;
+					};
+				};
+			};
+			buildConfigurationList = EA120273197A8AD9002AAF07 /* Build configuration list for PBXProject "WangYiNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA12026F197A8AD9002AAF07;
+			productRefGroup = EA120279197A8AD9002AAF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA120277197A8AD9002AAF07 /* WangYiNews */,
+				EA120284197A8AD9002AAF07 /* WangYiNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA120276197A8AD9002AAF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA120280197A8AD9002AAF07 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA120283197A8AD9002AAF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA120274197A8AD9002AAF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1202A4197A8BDB002AAF07 /* NewsShowCell.swift in Sources */,
+				EA1202AA197A9A7C002AAF07 /* RequestHandle.m in Sources */,
+				EA1202A0197A8BAB002AAF07 /* NewsDetailViewController.swift in Sources */,
+				EA1202BB197A9A90002AAF07 /* EGOImageButton.m in Sources */,
+				EA1202A2197A8BBF002AAF07 /* NewsItem.swift in Sources */,
+				EA1202BE197A9A90002AAF07 /* EGOImageView.m in Sources */,
+				EA1202BA197A9A8F002AAF07 /* EGOCache.m in Sources */,
+				EA1202A6197A8BEC002AAF07 /* NewsImageShowCell.swift in Sources */,
+				EA1202C1197AA2DD002AAF07 /* EGOImageLoader.m in Sources */,
+				EA12027E197A8AD9002AAF07 /* AppDelegate.swift in Sources */,
+				EA12029E197A8BA2002AAF07 /* NewsListViewController.swift in Sources */,
+				EA1202BC197A9A90002AAF07 /* EGOImageLoadConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA120281197A8AD9002AAF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA12028C197A8AD9002AAF07 /* WangYiNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA120287197A8AD9002AAF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA120277197A8AD9002AAF07 /* WangYiNews */;
+			targetProxy = EA120286197A8AD9002AAF07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA12028D197A8AD9002AAF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA12028E197A8AD9002AAF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA120290197A8AD9002AAF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WangYiNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WangYiNews/ThirdPart/WangYiNews-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA120291197A8AD9002AAF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WangYiNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WangYiNews/ThirdPart/WangYiNews-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EA120293197A8AD9002AAF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WangYiNews.app/WangYiNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WangYiNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EA120294197A8AD9002AAF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WangYiNews.app/WangYiNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WangYiNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA120273197A8AD9002AAF07 /* Build configuration list for PBXProject "WangYiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA12028D197A8AD9002AAF07 /* Debug */,
+				EA12028E197A8AD9002AAF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA12028F197A8AD9002AAF07 /* Build configuration list for PBXNativeTarget "WangYiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA120290197A8AD9002AAF07 /* Debug */,
+				EA120291197A8AD9002AAF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA120292197A8AD9002AAF07 /* Build configuration list for PBXNativeTarget "WangYiNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA120293197A8AD9002AAF07 /* Debug */,
+				EA120294197A8AD9002AAF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA120270197A8AD9002AAF07 /* Project object */;
+}
